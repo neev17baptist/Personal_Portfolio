@@ -2,10 +2,11 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { TypeAnimation } from 'react-type-animation'
 import { Link } from 'react-scroll'
+import p1 from "../assets/profile1.jpg"
 
 const Header = () => {
   const images = [
-    "/src/assets/profile1.jpg",
+    p1,
     "/src/assets/profile2.jpg",
     "/src/assets/profile3.jpg"
   ]
